@@ -1,0 +1,10 @@
+
+= partial 'partials/intro'
+= partial 'partials/workexp'
+= partial 'partials/education'
+
+.proj
+    - data.projects.each do |project|
+        %h4= project[:name]
+        %p= project[:description]
+
