@@ -1,0 +1,16 @@
+/ // Footer & contact info
+%footer#contact
+  .content-wrap
+    %h2 Så här når du mig!
+    / Social media and contact links. Add or remove any networks.
+    .contact-info
+      %a{:href => "mailto:albert.stjarne@gmail.com"} albert.stjarne@gmail.com
+      %a{:href => "http://yourwebsite.com", :target => "_blank"} yourwebsite.com
+      %a{:href => "#", :target => "_blank"} Twitter
+      / Nedan Twitter länk fungerar ej...
+      /
+        <a href="#" target="_blank"><i class="fa fa-twitter"
+        aria-hidden="true"></i><span class="sr-only">Twitter</span></a>
+      %a{:href => "#", :target => "_blank"} LinkedIn
+      %a{:href => "#", :target => "_blank"} Facebook
+    %p Copyright 2018 by Albert Stjärne
